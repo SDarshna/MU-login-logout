@@ -1,7 +1,7 @@
 Script used to find the login and logout for all the mobile users/ given mobile user(default all users). The default time for which the script is executed is 1 hour. The number of hours can be specified with option timerange.
 
-
-
+Requirements:
+pip install git+https://github.com/PaloAltoNetworks/prisma-sase-sdk-python.git
 
 (base) dsubashchand@M-JY4VCQYQ64 MU Login_Logout % python3 MU_Login_Logout.py --help
 usage: MU_Login_Logout.py [-h] [-t1 T1SECRET] [-option OPTION] [-timerange TIMERANGE] [-user USER]
